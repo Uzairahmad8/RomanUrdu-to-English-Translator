@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="script.js" defer></script>
+
+    <title>Urdu To English</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="counter">
+        <div class="word">
+          <h2>Words</h2>
+          <p class="wordCount"></p>
+        </div>
+
+        <div class="word">
+          <h2>Characters</h2>
+          <p class="charCount"></p>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <div class="textInput">
+          <textarea class="urdu" placeholder="Type Roman Urdu here"></textarea>
+          <textarea
+            class="english"
+            placeholder="Translation in English"
+            readonly
+            disabled
+          ></textarea>
+        </div>
+        <button class="submit">Translate</button>
+      </div>
+    </div>
+  </body>
+</html>
